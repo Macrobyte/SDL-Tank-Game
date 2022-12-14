@@ -9,6 +9,11 @@ sdl-config
 SDL2.spec
 build
 
+#Added by Macrobyte
+*.vsidx
+*.db
+*.ipch
+
 # for Xcode
 *.orig
 *.swp
