@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="InputHandler.cpp">
+      <Filter>Systems\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerTank.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureLoader.cpp">
+      <Filter>Systems\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Systems\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2D.cpp">
+      <Filter>Systems\Vector2D</Filter>
+    </ClCompile>
+    <ClCompile Include="SDLGameObject.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionHandler.cpp">
+      <Filter>Systems\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="TankBody.cpp">
+      <Filter>Game\Parts</Filter>
+    </ClCompile>
+    <ClCompile Include="TankTurret.cpp">
+      <Filter>Game\Parts</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ConsoleUtilities.h" />
+    <ClInclude Include="InputHandler.h">
+      <Filter>Systems\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerTank.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureLoader.h">
+      <Filter>Systems\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Systems\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2D.h">
+      <Filter>Systems\Vector2D</Filter>
+    </ClInclude>
+    <ClInclude Include="SDLGameObject.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionHandler.h">
+      <Filter>Systems\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="TankBody.h">
+      <Filter>Game\Parts</Filter>
+    </ClInclude>
+    <ClInclude Include="TankTurret.h">
+      <Filter>Game\Parts</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Game">
+      <UniqueIdentifier>{5cfa9e76-f050-4bcd-bd00-7c39b87c0ea8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems">
+      <UniqueIdentifier>{5c2bdafd-a49a-4b90-90f6-9fd5f57dfd31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\Rendering">
+      <UniqueIdentifier>{a5201574-c1f6-468e-94b9-e10aeb2ca2b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\Vector2D">
+      <UniqueIdentifier>{6dbb6802-dedc-4efa-a079-9cd84fdfb985}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\Input">
+      <UniqueIdentifier>{5990637e-499c-4a28-817f-8c7a3ef0b795}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\Collision">
+      <UniqueIdentifier>{b51dae19-18f5-45d0-8686-cfd333de46a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Parts">
+      <UniqueIdentifier>{ddb6d12d-ee69-435b-bdcf-97018e743884}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
